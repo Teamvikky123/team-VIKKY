@@ -5,7 +5,7 @@
 
 .main{
     width: 100%;
-    background:url(italy-mountains-dawn-daybreak-147411.jpeg),url(Capture.PNG);
+    background:url(images\ \(5\)\ \(2\).jpeg),url(Capture.PNG);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -15,6 +15,7 @@
     width: 1200px;
     height: 75px;
     margin: auto;
+    transition: 10s ease-in;
     
 }
 
@@ -27,12 +28,14 @@
 }
 
 .logo{
-    color: #063117;
+    background: url(team.png);
+    color: #000000;
     font-size: 35px;
     font-family: arial;
-    padding-left: 20px;
+    padding-left: 10px;
     float: left;
-    padding-top: 15px;
+    padding-top: 1px;
+    transition: 10s ease;
 
 }
 
@@ -123,6 +126,7 @@ ul li a:hover{
     margin: auto;
     color: #ffffff;
     position: relative;
+    transition: 3s ease-in;
 }
 
 .content .par{
@@ -177,16 +181,17 @@ ul li a:hover{
 .content span{
     color: #ff9900;
     font-size: 60px;
+    transition: 3s ease;
 }
 
 .form{
-    float: right;
+    float: left;
     width: 200px;
     height: 400px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8));
+    background: url(italy-mountains-dawn-daybreak-147411.jpeg);
     position: absolute;
     top: -5px;
-    left: 1000px;
+    left: 1650px;
     border-radius: 5px;
     padding: 25px;
     
@@ -212,7 +217,7 @@ ul li a:hover{
     background: transparent;
     border-bottom: 2px;
     border-left: none;
-    color: #ffffff;
+    color: sa#c90000;
     font-size: 10px;
     letter-spacing: 1px;
     margin-top: 50px;
@@ -225,7 +230,7 @@ ul li a:hover{
 }
 
 ::placeholder{
-    color: #fff;
+    color: #ffffff;
     font-family: arial;
 }
 
@@ -255,10 +260,12 @@ ul li a:hover{
 .btnn a{
     text-decoration: none;
     color: #000;
-    font-weight: bold;
-    
-    
+    font-weight: bold;    
 }
+
+
+    
+
 
 .form .link{
     font-family: Arial, Helvetica, sans-serif;
@@ -282,6 +289,11 @@ ul li a:hover{
 .grow{
     font-size: 40px;
     color: #f0fcad;
+    padding: 15px;
+    border: #d67200;
+    border-radius: 30;
+    cursor: pointer;
+    transition: 5s ease;
 }
 
 br:hover{
@@ -301,4 +313,22 @@ br:hover{
     color: #f8f8f8;
     
 }
+
+.team{
+    transition: 9s ease-in;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+     }
+
+ .A{
+    color: #d67200;
+ }
+
+ .M{
+    color: #d67200;
+ }
 
